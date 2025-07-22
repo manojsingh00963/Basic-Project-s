@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+        integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <h2>QRCODE</h2>
+            <input type="text" id="input-text" placeholder="Generate your QRcode">
+            <button onclick="generateqr()">QR code</button>
+        </div>
+        <div class="qrbox">
+            <div id="qr-code" class="qr-code"></div>
+            <button id="closebtn" onclick="closeWin()">close</button>
+        </div>
+        <script src="script.js"></script>
+
+</body>
+
+</html>
