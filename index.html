@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manoj's JS Tools Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f172a, #1e293b);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #38bdf8;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      color: #cbd5e1;
+    }
+
+    .projects {
+      display: grid;
+      gap: 1.5rem;
+      width: 100%;
+      max-width: 800px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      padding: 1.5rem;
+      border-radius: 12px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(56, 189, 248, 0.15);
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #38bdf8;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 1rem;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🛠️ Manoj's Basic JS Projects</h1>
+  <p>Explore simple, fun JavaScript tools below</p>
+
+  <div class="projects">
+    <div class="card">
+      <a href="/Hacker terminal/HackerTerminal.html" target="_blank">💻 Hacker Terminal</a>
+    </div>
+    <div class="card">
+      <a href="/QRcode generator/index.html" target="_blank">📷 QR Code Generator</a>
+    </div>
+    <div class="card">
+      <a href="/countdown app/index.html" target="_blank">⏳ Countdown App</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Manoj Singh | Built with ❤️ and JavaScript
+  </footer>
+</body>
+</html>
