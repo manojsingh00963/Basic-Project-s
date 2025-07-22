@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Hachi+Maru+Pop&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=M+PLUS+1+Code:wght@100..700&family=Monoton&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #161239;
+    color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+}
+
+.box {
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #161239;
+    color: #99a6cd;
+}
+
+h2 {
+    position: absolute;
+    top: 30%;
+    right: 47%;
+    letter-spacing: 4px;
+}
+
+.box input {
+    position: relative;
+    padding: 20px;
+    margin: auto;
+    width: 450px;
+    height: 50px;
+    background-color: #111729;
+    color: #707074;
+    border-radius: 15px;
+    border: 2px solid #3662E3;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    font-size: 14px;
+}
+
+.box button {
+
+    right: 31.5%;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: #3662E3;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0s ease-in;
+}
+
+button:hover {
+    width: 99px;
+    height: 39px;
+    background-color: #0b0ebc;
+}
+
+.qrbox {
+    /* display: flex;
+    
+    /* width: 100px;
+    height: 100px; */
+    /* position: absolute; */
+}
+
+.qr-code {
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+#closebtn {
+    display:none;
+    position: absolute;
+    top: 60%;
+    right: 40%;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(51, 28, 203);
+    color: #fff3f3;
+    font-size: 16px;
+    cursor: pointer;
+}
